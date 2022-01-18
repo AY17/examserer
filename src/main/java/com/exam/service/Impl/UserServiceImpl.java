@@ -35,7 +35,6 @@ public class UserServiceImpl implements UserService {
             local=this.userRepository.save(user);
         }
         return local;
-
     }
 
     //to get username using username
